@@ -1,0 +1,32 @@
+{
+  "name": "@heavenshell/eslint-config",
+  "version": "1.0.0",
+  "description": "My eslint config based on eslint-config-standard",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:unit && npm run test:lint",
+    "test:unit": "node tests/test.js",
+    "test:lint": "eslint tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/heavenshell/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Shinya Ohyanagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heavenshell/eslint-config/issues"
+  },
+  "homepage": "https://github.com/heavenshell/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-standard": "^6.0.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0"
+  }
+}
