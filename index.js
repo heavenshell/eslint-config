@@ -1,7 +1,13 @@
+// @flow
 module.exports = {
-  extends: 'standard',
+  extends: [
+    'standard',
+    'plugin:flowtype/recommended'
+  ],
+  parser: 'babel-eslint',
   plugins: [
-    'standard'
+    'standard',
+    'flowtype'
   ],
   env: {
     'browser': true,
